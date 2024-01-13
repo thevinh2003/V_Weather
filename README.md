@@ -33,7 +33,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Demo
 
-[Live Demo](https://v-weather.netlify.app/)
+[Live Demo](https://vinhthe-weather.netlify.app/)
 
 
 ## Tech Stack
