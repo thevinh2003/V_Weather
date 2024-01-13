@@ -1,5 +1,5 @@
 
-# Nimbus Weather App
+# V Weather App
 The Weather App is a minimalist web-based application that provides real-time weather information for any location in the world. Users can easily search for a location by name, and the app will display the current temperature, conditions, and wind speed. Additionally, the app includes a search history feature, which allows users to easily access their previous searches.
 
 ## Features
