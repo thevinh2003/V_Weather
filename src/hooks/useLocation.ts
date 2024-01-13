@@ -25,8 +25,8 @@ export const useLocation = () => {
           setLocation(position.coords.latitude, position.coords.longitude);
         }, 
         function (error) {
-          // paris added by default
-          setLocation(48.85341, 2.3488);
+          // Hanoi added by default
+          setLocation(21.0294498, 105.8544441);
         }
       );
     }
