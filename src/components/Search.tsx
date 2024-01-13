@@ -45,12 +45,12 @@ const Search = () => {
           value={searchTerm}
           onChange={event => setSearchTerm(event.target.value)}
           type="text"
-          className="block w-full lg:w-72 rounded-xl border-0 pl-8 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-light placeholder:text-gray-400 sm:text-sm sm:leading-6"
+          className="block w-full lg:w-72 rounded-xl border-0 pl-8 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-sm sm:leading-6"
           placeholder="Enter your location..."
         />
       </div>
       {open && data && data.length > 0 && (
-        <div className="ml-1 mt-1 z-50 w-full lg:w-72 rounded-md border bg-light text-popover-foreground shadow-md outline-none animate-in data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2">
+        <div className="overflow-hidden overflow-x-scroll ml-1 mt-1 z-50 w-full lg:w-72 rounded-md border bg-light text-popover-foreground shadow-md outline-none animate-in data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2">
           {isLoading ? (
             <div className="h-[5rem] grid place-content-center">
               <Loading />
